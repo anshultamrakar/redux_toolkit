@@ -1,10 +1,10 @@
-
+import Counter from "./feature/counter/Counter";
 
 function App() {
   return (
-    <div className="App">
-      <h3>Welcome to Redux toolkit</h3>
-    </div>
+    <main className="App">
+      <Counter/>
+    </main>
   );
 }
 
